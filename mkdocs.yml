@@ -1,0 +1,27 @@
+extra_css:
+- css/extra.css
+google_analytics:
+- UA-76156484-1
+- auto
+markdown_extensions:
+- toc:
+    permalink: true
+- admonition: null
+pages:
+- General:
+  - Introduction: index.md
+  - Hardware: device.md
+- device:
+  - Overview: device.md
+  - i2c: device/i2c.md
+  - serial: device/serial.md
+  - messageBus: device/messageBus.md
+  - buttons: device/button.md
+  - accelerometer: device/accelerometer.md
+  - thermometer: device/thermometer.md
+  - io: device/io.md
+- _buttonAB: device/multibutton.md
+repo_url: https://github.com/lancaster-university/mkdocs-base/
+site_description: A base project designed to quick start the documentation process for a target in CODAL.
+site_name: CODAL mkdocs
+theme_dir: theme
