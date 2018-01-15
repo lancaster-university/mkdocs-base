@@ -1,4 +1,4 @@
-#MKDOCS-BASE
+# MKDOCS-BASE
 
 This repository contains a base theme, and some example documentation to get started with documenting a CODAL device.
 
